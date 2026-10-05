@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démonstration des Balises HTML</title>
+</head>
+<body>
+    <--!Éléments>
+    <section id="demonstration">
+<h1>1. Démonstration des comportements</h1>
+<!-- Test des éléments Bloc -->
+<p>Ceci est un premier paragraphe (élément
+Bloc).</p>
+<p>Ceci est un second paragraphe (élément Bloc,
+il passe automatiquement à la ligne).</p>
+<!-- Test des éléments Inline -->
+<p>
+Dans ce paragraphe, les mots <strong>trois
+mots importants</strong>,
+<em>deux mots en emphase</em> et <mark>un
+terme surligné</mark>
+sont des éléments Inline : ils restent
+alignés dans le texte.
+</p>
+</section>
+<!--!Éléments Bloc (ex: <p>) :Zone bleue (DevTools) : S'étend sur toute la largeur disponible 
+Comportement : Provoquent un retour à la ligne automatique et se superposent verticalement.
+Éléments Inline (ex: <strong>, <em>, <mark>) :Zone bleue (DevTools) : Épouse exactement la taille du texte encadré.Comportement : Restent alignés sur la même ligne au milieu du texte, sans retour à la ligne -->
+    
+
+    <header>
+        
+        <h1>Guide d'utilisation des balises HTML sémantiques</h1>
+    </header>
+
+    <main>
+    
+        <section>
+            <h2>1. Structuration et Mise en Valeur du Texte</h2>
+            
+            <p>
+                Il est <strong>extrêmement important</strong> d'utiliser une structure claire. 
+                Une bonne organisation permet d'<em>améliorer l'accessibilité</em> et le référencement.
+            </p>
+
+            <p>
+                Voici un exemple de <mark>texte surligné pour révision</mark>. 
+                Dans la version précédente, le projet était prévu pour <del>2025</del> <ins>2026</ins>.
+            </p>
+        </section>
+
+    
+        <section>
+            <h2>2. Annotations Scientifiques et Acronymes</h2>
+
+            <h3>Définitions des standards Web</h3>
+            <p>
+                Le langage <abbr title="HyperText Markup Language">HTML</abbr> est maintenu par le 
+                <abbr title="World Wide Web Consortium">W3C</abbr>.
+            </p>
+
+            <h3>Formules Scientifiques</h3>
+            <p>
+                L'eau est représentée par la formule chimique H<sub>2</sub>O.<br>
+                La célèbre équation d'Albert Einstein est E = mc<sup>2</sup>.
+            </p>
+        </section>
+
+    
+        <section>
+            <h2>3. Citations Courtes et Longues</h2>
+
+            <p>
+                Comme le disait Tim Berners-Lee : <q>Le pouvoir du Web est dans son universalité.</q>
+            </p>
+
+            <blockquote cite="https://www.w3.org/Consortium/">
+                <p>
+                    Le World Wide Web Consortium (W3C) est un organisme à but non lucratif qui développe 
+                    des normes ouvertes pour assurer la croissance à long terme du Web.
+                </p>
+                <footer>
+                    — Source : <cite><a href="https://www.w3.org/Consortium/">Site officiel du W3C</a></cite>
+                </footer>
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>4. Exemples de Code Informatique</h2>
+
+            <p>
+                Pour afficher un message en JavaScript, on utilise la commande <code>console.log()</code>.
+            </p>
+
+            <p>Voici un bloc de code complet :</p>
+            <pre><code>function saluer(nom) {
+    // Affiche un message de bienvenue
+    console.log("Bonjour " + nom + " !");
+}
+
+saluer("Développeur");</code></pre>
+        </section>
+    </main>
+
+</body>
+</html> 
